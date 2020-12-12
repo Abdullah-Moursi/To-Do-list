@@ -1,0 +1,110 @@
+* {
+    font-family: sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+body {
+    background-color: lightcoral;
+}
+
+.main {
+    width: 50%;
+    height: 100%;
+    max-width: 560px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: rgb(247, 245, 245);
+    padding: 10px;
+    margin: 60px auto auto;
+}
+
+h1 {
+    padding: 10px 0;
+}
+
+h2 {
+    font-size: 17px;
+    font-weight: 10;
+    color: rgb(230, 140, 24);
+    margin-bottom: 15px;
+}
+
+.after {
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+button {
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 5px 20px;
+    cursor: pointer;
+    border: none;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: .6;
+  }
+
+#clear {
+    background-color: rgb(180, 180, 24);
+}
+
+#add {
+    margin-left: 10px;
+    background-color: rgb(95, 95, 236);
+}
+
+#empty {
+    background-color: rgb(139, 37, 37);
+    margin: 0 10px;
+}
+
+#mot {
+    background-color: rgb(59, 216, 59);
+}
+
+#inp {
+    height: 23px;
+    width: 185px;
+    border-radius: 5%;
+    border: 1px solid black;
+    padding: 3px 5px;
+}
+
+
+.content {
+    width: 70%;
+    margin: auto auto;
+}
+
+#to_do_list {
+    margin-left: 20px;
+    margin-top: 16px;
+    font-size: 15px;
+    color: rgb(15, 15, 15);
+    font-weight: 600;
+}
+
+  ol li:nth-child(odd) {
+    background: #f0ebeb;
+  }
+
+  ol li:hover {
+    background: lightcoral;
+    transition: 0.3s;
+  }
+
+  ol li {
+    transition: 0.3s;
+  }
+
+  ol li.checked {
+    color: rgb(92, 91, 92);
+    text-decoration: line-through;
+  }
